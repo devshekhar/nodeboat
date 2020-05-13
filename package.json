@@ -2,9 +2,12 @@
   "name": "myapp",
   "version": "0.0.0",
   "private": true,
+  "main": "./bin/www",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "nexe"
   },
+  "bin": "bin.js",
   "dependencies": {
     "consolidate": "^0.15.1",
     "cookie-parser": "~1.4.4",
@@ -14,5 +17,8 @@
     "morgan": "~1.9.1",
     "mustache": "^4.0.1",
     "puppeteer": "^1.5.0"
+  },
+  "devDependencies": {
+    "nexe": "^3.3.2"
   }
 }
