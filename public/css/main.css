@@ -213,7 +213,7 @@ h6 {
 }
 
 .wrapper--w780 {
-  max-width: 780px;
+  max-width: 500px;
 }
 
 .wrapper--w680 {
@@ -338,7 +338,7 @@ input {
 
 .input-group {
   position: relative;
-  margin-bottom: 33px;
+  margin-bottom: 23px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -462,11 +462,15 @@ input {
 /* ==========================================================================
    #TITLE
    ========================================================================== */
-.title {
-  font-size: 24px;
-  color: #fff;
-  font-weight: 400;
-  margin-bottom: 36px;
+   .title {
+    /* text-decoration: underline; */
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 36px;
+    border-bottom: 2px solid;
+    /* line-height: 33px; */
 }
 
 /* ==========================================================================
@@ -499,8 +503,8 @@ input {
 }
 
 .card-3 .card-body {
-  padding: 57px 65px;
-  padding-bottom: 65px;
+  padding: 35px 50px;
+  padding-bottom: 35px;
   display: table-cell;
 }
 

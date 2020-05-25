@@ -1,5 +1,5 @@
 {
-  "name": "myapp",
+  "name": "placeautobet",
   "version": "0.0.0",
   "private": true,
   "main": "./bin/www",
@@ -16,9 +16,22 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "mustache": "^4.0.1",
-    "puppeteer": "^1.5.0"
+    "puppeteer": "^1.5.0",
+    "tesseract.js": "^1.0.19"
   },
   "devDependencies": {
     "nexe": "^3.3.2"
+  },
+  "pkg": {
+    "assets": [
+      "public/images/**/*",
+      "public/css/**/*",
+      "public/js/**/*",
+      "public/vendor/**/*",
+      "public/**/*"
+    ],
+    "targets": [
+      "node12"
+    ]
   }
 }
